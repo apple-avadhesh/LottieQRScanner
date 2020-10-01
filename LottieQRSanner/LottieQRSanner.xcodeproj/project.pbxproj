@@ -3,74 +3,73 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		96674745252653A40050D6F2 /* LottieQRScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96674744252653A40050D6F2 /* LottieQRScannerApp.swift */; };
-		96674747252653A40050D6F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96674746252653A40050D6F2 /* ContentView.swift */; };
-		96674749252653A80050D6F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96674748252653A80050D6F2 /* Assets.xcassets */; };
-		9667474C252653A80050D6F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9667474B252653A80050D6F2 /* Preview Assets.xcassets */; };
-		9667474E252653A80050D6F2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9667474D252653A80050D6F2 /* Persistence.swift */; };
-		96674751252653A80050D6F2 /* LottieQRScanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9667474F252653A80050D6F2 /* LottieQRScanner.xcdatamodeld */; };
+		96BA49FF252657D400F2AC74 /* LottieQRSannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BA49FE252657D400F2AC74 /* LottieQRSannerApp.swift */; };
+		96BA4A01252657D400F2AC74 /* QRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BA4A00252657D400F2AC74 /* QRView.swift */; };
+		96BA4A03252657DA00F2AC74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BA4A02252657DA00F2AC74 /* Assets.xcassets */; };
+		96BA4A06252657DA00F2AC74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BA4A05252657DA00F2AC74 /* Preview Assets.xcassets */; };
+		96BA4A1225265A6B00F2AC74 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BA4A1125265A6B00F2AC74 /* LibraryView.swift */; };
+		96BA4A1A2526609B00F2AC74 /* CarBode in Frameworks */ = {isa = PBXBuildFile; productRef = 96BA4A192526609B00F2AC74 /* CarBode */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		96674741252653A40050D6F2 /* LottieQRScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieQRScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		96674744252653A40050D6F2 /* LottieQRScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieQRScannerApp.swift; sourceTree = "<group>"; };
-		96674746252653A40050D6F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		96674748252653A80050D6F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9667474B252653A80050D6F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9667474D252653A80050D6F2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		96674750252653A80050D6F2 /* LottieQRScanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LottieQRScanner.xcdatamodel; sourceTree = "<group>"; };
-		96674752252653A80050D6F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96BA49FB252657D400F2AC74 /* LottieQRSanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieQRSanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BA49FE252657D400F2AC74 /* LottieQRSannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieQRSannerApp.swift; sourceTree = "<group>"; };
+		96BA4A00252657D400F2AC74 /* QRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRView.swift; sourceTree = "<group>"; };
+		96BA4A02252657DA00F2AC74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96BA4A05252657DA00F2AC74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96BA4A07252657DA00F2AC74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96BA4A1125265A6B00F2AC74 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9667473E252653A40050D6F2 /* Frameworks */ = {
+		96BA49F8252657D400F2AC74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96BA4A1A2526609B00F2AC74 /* CarBode in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		96674738252653A40050D6F2 = {
+		96BA49F2252657D400F2AC74 = {
 			isa = PBXGroup;
 			children = (
-				96674743252653A40050D6F2 /* LottieQRScanner */,
-				96674742252653A40050D6F2 /* Products */,
+				96BA49FD252657D400F2AC74 /* LottieQRSanner */,
+				96BA49FC252657D400F2AC74 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		96674742252653A40050D6F2 /* Products */ = {
+		96BA49FC252657D400F2AC74 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96674741252653A40050D6F2 /* LottieQRScanner.app */,
+				96BA49FB252657D400F2AC74 /* LottieQRSanner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		96674743252653A40050D6F2 /* LottieQRScanner */ = {
+		96BA49FD252657D400F2AC74 /* LottieQRSanner */ = {
 			isa = PBXGroup;
 			children = (
-				96674744252653A40050D6F2 /* LottieQRScannerApp.swift */,
-				96674746252653A40050D6F2 /* ContentView.swift */,
-				96674748252653A80050D6F2 /* Assets.xcassets */,
-				9667474D252653A80050D6F2 /* Persistence.swift */,
-				96674752252653A80050D6F2 /* Info.plist */,
-				9667474F252653A80050D6F2 /* LottieQRScanner.xcdatamodeld */,
-				9667474A252653A80050D6F2 /* Preview Content */,
+				96BA49FE252657D400F2AC74 /* LottieQRSannerApp.swift */,
+				96BA4A00252657D400F2AC74 /* QRView.swift */,
+				96BA4A1125265A6B00F2AC74 /* LibraryView.swift */,
+				96BA4A02252657DA00F2AC74 /* Assets.xcassets */,
+				96BA4A07252657DA00F2AC74 /* Info.plist */,
+				96BA4A04252657DA00F2AC74 /* Preview Content */,
 			);
-			path = LottieQRScanner;
+			path = LottieQRSanner;
 			sourceTree = "<group>";
 		};
-		9667474A252653A80050D6F2 /* Preview Content */ = {
+		96BA4A04252657DA00F2AC74 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9667474B252653A80050D6F2 /* Preview Assets.xcassets */,
+				96BA4A05252657DA00F2AC74 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -78,38 +77,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		96674740252653A40050D6F2 /* LottieQRScanner */ = {
+		96BA49FA252657D400F2AC74 /* LottieQRSanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96674755252653A80050D6F2 /* Build configuration list for PBXNativeTarget "LottieQRScanner" */;
+			buildConfigurationList = 96BA4A0A252657DA00F2AC74 /* Build configuration list for PBXNativeTarget "LottieQRSanner" */;
 			buildPhases = (
-				9667473D252653A40050D6F2 /* Sources */,
-				9667473E252653A40050D6F2 /* Frameworks */,
-				9667473F252653A40050D6F2 /* Resources */,
+				96BA49F7252657D400F2AC74 /* Sources */,
+				96BA49F8252657D400F2AC74 /* Frameworks */,
+				96BA49F9252657D400F2AC74 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LottieQRScanner;
-			productName = LottieQRScanner;
-			productReference = 96674741252653A40050D6F2 /* LottieQRScanner.app */;
+			name = LottieQRSanner;
+			packageProductDependencies = (
+				96BA4A192526609B00F2AC74 /* CarBode */,
+			);
+			productName = LottieQRSanner;
+			productReference = 96BA49FB252657D400F2AC74 /* LottieQRSanner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		96674739252653A40050D6F2 /* Project object */ = {
+		96BA49F3252657D400F2AC74 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					96674740252653A40050D6F2 = {
+					96BA49FA252657D400F2AC74 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 9667473C252653A40050D6F2 /* Build configuration list for PBXProject "LottieQRScanner" */;
+			buildConfigurationList = 96BA49F6252657D400F2AC74 /* Build configuration list for PBXProject "LottieQRSanner" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,44 +119,46 @@
 				en,
 				Base,
 			);
-			mainGroup = 96674738252653A40050D6F2;
-			productRefGroup = 96674742252653A40050D6F2 /* Products */;
+			mainGroup = 96BA49F2252657D400F2AC74;
+			packageReferences = (
+				96BA4A182526609B00F2AC74 /* XCRemoteSwiftPackageReference "CarBode-Barcode-Scanner-For-SwiftUI" */,
+			);
+			productRefGroup = 96BA49FC252657D400F2AC74 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				96674740252653A40050D6F2 /* LottieQRScanner */,
+				96BA49FA252657D400F2AC74 /* LottieQRSanner */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9667473F252653A40050D6F2 /* Resources */ = {
+		96BA49F9252657D400F2AC74 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9667474C252653A80050D6F2 /* Preview Assets.xcassets in Resources */,
-				96674749252653A80050D6F2 /* Assets.xcassets in Resources */,
+				96BA4A06252657DA00F2AC74 /* Preview Assets.xcassets in Resources */,
+				96BA4A03252657DA00F2AC74 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9667473D252653A40050D6F2 /* Sources */ = {
+		96BA49F7252657D400F2AC74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9667474E252653A80050D6F2 /* Persistence.swift in Sources */,
-				96674747252653A40050D6F2 /* ContentView.swift in Sources */,
-				96674751252653A80050D6F2 /* LottieQRScanner.xcdatamodeld in Sources */,
-				96674745252653A40050D6F2 /* LottieQRScannerApp.swift in Sources */,
+				96BA4A01252657D400F2AC74 /* QRView.swift in Sources */,
+				96BA4A1225265A6B00F2AC74 /* LibraryView.swift in Sources */,
+				96BA49FF252657D400F2AC74 /* LottieQRSannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		96674753252653A80050D6F2 /* Debug */ = {
+		96BA4A08252657DA00F2AC74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,6 +191,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: Vishal Lohia (UJK3J3TLXH)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -215,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		96674754252653A80050D6F2 /* Release */ = {
+		96BA4A09252657DA00F2AC74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -248,6 +253,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: Vishal Lohia (UJK3J3TLXH)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -270,45 +276,49 @@
 			};
 			name = Release;
 		};
-		96674756252653A80050D6F2 /* Debug */ = {
+		96BA4A0B252657DA00F2AC74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"LottieQRScanner/Preview Content\"";
-				DEVELOPMENT_TEAM = 97T7T64RDT;
+				CODE_SIGN_IDENTITY = "Apple Development: Vishal Lohia (UJK3J3TLXH)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "\"LottieQRSanner/Preview Content\"";
+				DEVELOPMENT_TEAM = MMMJR6XCK4;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = LottieQRScanner/Info.plist;
+				INFOPLIST_FILE = LottieQRSanner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.avadhesh.LottieQRScanner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arris.sbc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = SURFboardCentralDevelopmentProfile;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		96674757252653A80050D6F2 /* Release */ = {
+		96BA4A0C252657DA00F2AC74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"LottieQRScanner/Preview Content\"";
-				DEVELOPMENT_TEAM = 97T7T64RDT;
+				CODE_SIGN_IDENTITY = "Apple Development: Vishal Lohia (UJK3J3TLXH)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "\"LottieQRSanner/Preview Content\"";
+				DEVELOPMENT_TEAM = MMMJR6XCK4;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = LottieQRScanner/Info.plist;
+				INFOPLIST_FILE = LottieQRSanner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.avadhesh.LottieQRScanner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arris.sbc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = SURFboardCentralDevelopmentProfile;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,38 +327,44 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9667473C252653A40050D6F2 /* Build configuration list for PBXProject "LottieQRScanner" */ = {
+		96BA49F6252657D400F2AC74 /* Build configuration list for PBXProject "LottieQRSanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96674753252653A80050D6F2 /* Debug */,
-				96674754252653A80050D6F2 /* Release */,
+				96BA4A08252657DA00F2AC74 /* Debug */,
+				96BA4A09252657DA00F2AC74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96674755252653A80050D6F2 /* Build configuration list for PBXNativeTarget "LottieQRScanner" */ = {
+		96BA4A0A252657DA00F2AC74 /* Build configuration list for PBXNativeTarget "LottieQRSanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96674756252653A80050D6F2 /* Debug */,
-				96674757252653A80050D6F2 /* Release */,
+				96BA4A0B252657DA00F2AC74 /* Debug */,
+				96BA4A0C252657DA00F2AC74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCVersionGroup section */
-		9667474F252653A80050D6F2 /* LottieQRScanner.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				96674750252653A80050D6F2 /* LottieQRScanner.xcdatamodel */,
-			);
-			currentVersion = 96674750252653A80050D6F2 /* LottieQRScanner.xcdatamodel */;
-			path = LottieQRScanner.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
+/* Begin XCRemoteSwiftPackageReference section */
+		96BA4A182526609B00F2AC74 /* XCRemoteSwiftPackageReference "CarBode-Barcode-Scanner-For-SwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/heart/CarBode-Barcode-Scanner-For-SwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.1;
+			};
 		};
-/* End XCVersionGroup section */
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		96BA4A192526609B00F2AC74 /* CarBode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96BA4A182526609B00F2AC74 /* XCRemoteSwiftPackageReference "CarBode-Barcode-Scanner-For-SwiftUI" */;
+			productName = CarBode;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 96674739252653A40050D6F2 /* Project object */;
+	rootObject = 96BA49F3252657D400F2AC74 /* Project object */;
 }
