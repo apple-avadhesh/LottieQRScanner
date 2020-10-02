@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		965E2B5425279EB600E24553 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965E2B5325279EB600E24553 /* CoreDataStack.swift */; };
+		96AA0B4E2527A51100DEEAC1 /* Lottie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AA0B4C2527A51100DEEAC1 /* Lottie+CoreDataProperties.swift */; };
+		96AA0B4F2527A51100DEEAC1 /* Lottie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AA0B4D2527A51100DEEAC1 /* Lottie+CoreDataClass.swift */; };
+		96AA0B542527A6D200DEEAC1 /* LottieQRScanner.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 965E2B4F2527996E00E24553 /* LottieQRScanner.xcdatamodeld */; };
 		96BA49FF252657D400F2AC74 /* LottieQRSannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BA49FE252657D400F2AC74 /* LottieQRSannerApp.swift */; };
 		96BA4A01252657D400F2AC74 /* QRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BA4A00252657D400F2AC74 /* QRView.swift */; };
 		96BA4A03252657DA00F2AC74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BA4A02252657DA00F2AC74 /* Assets.xcassets */; };
@@ -19,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		965E2B502527996E00E24553 /* LottieQRScanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LottieQRScanner.xcdatamodel; sourceTree = "<group>"; };
+		965E2B5325279EB600E24553 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		96AA0B4C2527A51100DEEAC1 /* Lottie+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lottie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		96AA0B4D2527A51100DEEAC1 /* Lottie+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lottie+CoreDataClass.swift"; sourceTree = "<group>"; };
 		96BA49FB252657D400F2AC74 /* LottieQRSanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieQRSanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96BA49FE252657D400F2AC74 /* LottieQRSannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieQRSannerApp.swift; sourceTree = "<group>"; };
 		96BA4A00252657D400F2AC74 /* QRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRView.swift; sourceTree = "<group>"; };
@@ -43,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		965E2B5B2527A06C00E24553 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				96AA0B4D2527A51100DEEAC1 /* Lottie+CoreDataClass.swift */,
+				96AA0B4C2527A51100DEEAC1 /* Lottie+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		96BA49F2252657D400F2AC74 = {
 			isa = PBXGroup;
 			children = (
@@ -62,11 +79,14 @@
 		96BA49FD252657D400F2AC74 /* LottieQRSanner */ = {
 			isa = PBXGroup;
 			children = (
+				965E2B5B2527A06C00E24553 /* CoreData */,
 				96BA49FE252657D400F2AC74 /* LottieQRSannerApp.swift */,
 				96BA4A00252657D400F2AC74 /* QRView.swift */,
 				96BA4A1125265A6B00F2AC74 /* LibraryView.swift */,
 				96DDC1362526F99700E2CCCA /* LottieRepresentableView.swift */,
+				965E2B5325279EB600E24553 /* CoreDataStack.swift */,
 				96DDC13A252707E300E2CCCA /* LottiePreviewView.swift */,
+				965E2B4F2527996E00E24553 /* LottieQRScanner.xcdatamodeld */,
 				96BA4A02252657DA00F2AC74 /* Assets.xcassets */,
 				96BA4A07252657DA00F2AC74 /* Info.plist */,
 				96BA4A04252657DA00F2AC74 /* Preview Content */,
@@ -147,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96AA0B542527A6D200DEEAC1 /* LottieQRScanner.xcdatamodeld in Resources */,
 				96BA4A06252657DA00F2AC74 /* Preview Assets.xcassets in Resources */,
 				96BA4A03252657DA00F2AC74 /* Assets.xcassets in Resources */,
 			);
@@ -159,10 +180,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				965E2B5425279EB600E24553 /* CoreDataStack.swift in Sources */,
 				96DDC1372526F99700E2CCCA /* LottieRepresentableView.swift in Sources */,
 				96BA4A01252657D400F2AC74 /* QRView.swift in Sources */,
+				96AA0B4F2527A51100DEEAC1 /* Lottie+CoreDataClass.swift in Sources */,
 				96BA4A1225265A6B00F2AC74 /* LibraryView.swift in Sources */,
 				96BA49FF252657D400F2AC74 /* LottieQRSannerApp.swift in Sources */,
+				96AA0B4E2527A51100DEEAC1 /* Lottie+CoreDataProperties.swift in Sources */,
 				96DDC13B252707E300E2CCCA /* LottiePreviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +414,19 @@
 			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		965E2B4F2527996E00E24553 /* LottieQRScanner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				965E2B502527996E00E24553 /* LottieQRScanner.xcdatamodel */,
+			);
+			currentVersion = 965E2B502527996E00E24553 /* LottieQRScanner.xcdatamodel */;
+			path = LottieQRScanner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 96BA49F3252657D400F2AC74 /* Project object */;
 }

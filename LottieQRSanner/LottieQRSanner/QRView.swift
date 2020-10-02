@@ -28,7 +28,7 @@ struct QRView: View {
         }.navigationBarTitle("Scan Lottie QR Code")
     }
     
-    var startScanner: some View {
+     var startScanner: some View {
         CBScanner(
             supportBarcode: .constant([.qr]),
             scanInterval: .constant(5.0)
