@@ -13,6 +13,9 @@
 		96BA4A06252657DA00F2AC74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BA4A05252657DA00F2AC74 /* Preview Assets.xcassets */; };
 		96BA4A1225265A6B00F2AC74 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BA4A1125265A6B00F2AC74 /* LibraryView.swift */; };
 		96BA4A1A2526609B00F2AC74 /* CarBode in Frameworks */ = {isa = PBXBuildFile; productRef = 96BA4A192526609B00F2AC74 /* CarBode */; };
+		96DDC1342526F96A00E2CCCA /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 96DDC1332526F96A00E2CCCA /* Lottie */; };
+		96DDC1372526F99700E2CCCA /* LottieRepresentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DDC1362526F99700E2CCCA /* LottieRepresentableView.swift */; };
+		96DDC13B252707E300E2CCCA /* LottiePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DDC13A252707E300E2CCCA /* LottiePreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,8 @@
 		96BA4A05252657DA00F2AC74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		96BA4A07252657DA00F2AC74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96BA4A1125265A6B00F2AC74 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		96DDC1362526F99700E2CCCA /* LottieRepresentableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieRepresentableView.swift; sourceTree = "<group>"; };
+		96DDC13A252707E300E2CCCA /* LottiePreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottiePreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +36,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96BA4A1A2526609B00F2AC74 /* CarBode in Frameworks */,
+				96DDC1342526F96A00E2CCCA /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +65,8 @@
 				96BA49FE252657D400F2AC74 /* LottieQRSannerApp.swift */,
 				96BA4A00252657D400F2AC74 /* QRView.swift */,
 				96BA4A1125265A6B00F2AC74 /* LibraryView.swift */,
+				96DDC1362526F99700E2CCCA /* LottieRepresentableView.swift */,
+				96DDC13A252707E300E2CCCA /* LottiePreviewView.swift */,
 				96BA4A02252657DA00F2AC74 /* Assets.xcassets */,
 				96BA4A07252657DA00F2AC74 /* Info.plist */,
 				96BA4A04252657DA00F2AC74 /* Preview Content */,
@@ -92,6 +100,7 @@
 			name = LottieQRSanner;
 			packageProductDependencies = (
 				96BA4A192526609B00F2AC74 /* CarBode */,
+				96DDC1332526F96A00E2CCCA /* Lottie */,
 			);
 			productName = LottieQRSanner;
 			productReference = 96BA49FB252657D400F2AC74 /* LottieQRSanner.app */;
@@ -122,6 +131,7 @@
 			mainGroup = 96BA49F2252657D400F2AC74;
 			packageReferences = (
 				96BA4A182526609B00F2AC74 /* XCRemoteSwiftPackageReference "CarBode-Barcode-Scanner-For-SwiftUI" */,
+				96DDC1322526F96A00E2CCCA /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = 96BA49FC252657D400F2AC74 /* Products */;
 			projectDirPath = "";
@@ -149,9 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96DDC1372526F99700E2CCCA /* LottieRepresentableView.swift in Sources */,
 				96BA4A01252657D400F2AC74 /* QRView.swift in Sources */,
 				96BA4A1225265A6B00F2AC74 /* LibraryView.swift in Sources */,
 				96BA49FF252657D400F2AC74 /* LottieQRSannerApp.swift in Sources */,
+				96DDC13B252707E300E2CCCA /* LottiePreviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +368,14 @@
 				minimumVersion = 2.0.1;
 			};
 		};
+		96DDC1322526F96A00E2CCCA /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.8;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -363,6 +383,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 96BA4A182526609B00F2AC74 /* XCRemoteSwiftPackageReference "CarBode-Barcode-Scanner-For-SwiftUI" */;
 			productName = CarBode;
+		};
+		96DDC1332526F96A00E2CCCA /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96DDC1322526F96A00E2CCCA /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

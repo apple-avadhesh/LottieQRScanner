@@ -11,21 +11,33 @@ import CarBode
 struct QRView: View {
     
     //MARK: Properties
-    @State private var isShowingScanner = false
-
+    @State var scannedURL: String?
+    @State var isActive = false
 
     var body: some View {
-        VStack{
-
-               CBScanner(
-                       supportBarcode: .constant([.qr]), //Set type of barcode you want to scan
-                       scanInterval: .constant(5.0) //Event will trigger every 5 seconds
-                   ){
-                       //When the scanner found a barcode
-                       print($0.value)
-                       print("Barcode Type is", $0.type.rawValue)
-                   }
+        NavigationView {
+            VStack {
+                if self.scannedURL != nil {
+                    NavigationLink(destination: LottiePreviewView(strLottieURL: scannedURL!, isActive: $isActive), isActive: $isActive) {
+                        EmptyView()
+                    }
+                }
+                self.startScanner
+            }
             
+        }.navigationBarTitle("Scan Lottie QR Code")
+    }
+    
+    var startScanner: some View {
+        CBScanner(
+            supportBarcode: .constant([.qr]),
+            scanInterval: .constant(5.0)
+        ){
+            //When the scanner found a barcode
+            print($0.value)
+            print("Barcode Type is", $0.type.rawValue)
+            isActive = true
+            self.scannedURL = $0.value
         }
     }
 }

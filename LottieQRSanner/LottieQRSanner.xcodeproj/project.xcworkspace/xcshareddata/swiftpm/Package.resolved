@@ -9,6 +9,15 @@
           "revision": "4c1c711ed29f1d7f7cda558c2dc90bfcb4a0f916",
           "version": "2.0.1"
         }
+      },
+      {
+        "package": "Lottie",
+        "repositoryURL": "https://github.com/airbnb/lottie-ios.git",
+        "state": {
+          "branch": null,
+          "revision": "4e5877425dae5c10792fc9d22d53dc6bf6824dc1",
+          "version": "3.1.8"
+        }
       }
     ]
   },
