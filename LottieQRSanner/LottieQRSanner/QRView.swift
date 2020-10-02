@@ -24,8 +24,8 @@ struct QRView: View {
                 }
                 self.startScanner
             }
-            
-        }.navigationBarTitle("Scan Lottie QR Code")
+            .navigationBarTitle("Scan Lottie QR Code")
+        }
     }
     
      var startScanner: some View {
@@ -38,6 +38,17 @@ struct QRView: View {
             print("Barcode Type is", $0.type.rawValue)
             isActive = true
             self.scannedURL = $0.value
+            
+            //Save lottie to CoreData
+            let newLottie = Lottie(context: CoreDataStack.shared.moc)
+            newLottie.url = $0.value
+            newLottie.name = $0.type.rawValue
+            
+            if CoreDataStack.shared.moc.hasChanges {
+                try? CoreDataStack.shared.moc.save()
+            }
+            
+            print(CoreDataStack.shared.getAllLotties().count)
         }
     }
 }

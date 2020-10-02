@@ -18,21 +18,21 @@ struct LottieRepresentableView: UIViewRepresentable {
         let view = UIView(frame: CGRect.zero)
         let animationView = AnimationView()
         let _ = Animation.loadedFrom(url: URL(string: strLottieURL)!, closure: { (animation) in
-            if let animation = animation {
-                animationView.animation = animation
-                animationView.contentMode = .scaleAspectFit
-                animationView.loopMode = .loop
-                animationView.play()
-                
-                animationView.translatesAutoresizingMaskIntoConstraints = false
-                view.addSubview(animationView)
-                
-                //Adding Constraints
-                let heightConstraint = animationView.heightAnchor.constraint(equalTo: view.heightAnchor)
-                let widthConstraint = animationView.widthAnchor.constraint(equalTo: view.widthAnchor)
-                NSLayoutConstraint.activate([heightConstraint,widthConstraint]
-                )
-            }
+                if let animation = animation {
+                    animationView.animation = animation
+                    animationView.contentMode = .scaleAspectFit
+                    animationView.loopMode = .loop
+                    animationView.play()
+                    
+                    animationView.translatesAutoresizingMaskIntoConstraints = false
+                    view.addSubview(animationView)
+                    
+                    //Adding Constraints
+                    let heightConstraint = animationView.heightAnchor.constraint(equalTo: view.heightAnchor)
+                    let widthConstraint = animationView.widthAnchor.constraint(equalTo: view.widthAnchor)
+                    NSLayoutConstraint.activate([heightConstraint,widthConstraint]
+                    )
+                }
         }, animationCache: nil)
         
         return view
