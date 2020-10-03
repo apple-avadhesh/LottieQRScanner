@@ -1,6 +1,6 @@
 # LottieQRScanner
 
-<img src="https://github.com/apple-avadhesh/LottieQRScanner/blob/main/Library_Sample.gif" width="222" height="420">    <img src="https://github.com/apple-avadhesh/LottieQRScanner/blob/main/Scanner_Sample.png" width="222" height="400"> 
+<img src="https://github.com/apple-avadhesh/LottieQRScanner/blob/main/Library_Sample.gif" width="222" height="420">    <img src="https://github.com/apple-avadhesh/LottieQRScanner/blob/main/Scanner_Sample.png" width="240" height="400"> 
 
 ## Environment
 - Xcode 12.0.1
