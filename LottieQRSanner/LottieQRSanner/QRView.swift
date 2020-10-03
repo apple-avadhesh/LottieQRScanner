@@ -35,20 +35,20 @@ struct QRView: View {
         ){
             //When the scanner found a barcode
             print($0.value)
-//            print("Barcode Type is", $0.type.rawValue)
-//            isActive = true
-//            self.scannedURL = $0.value
-//            
-//            //Save lottie to CoreData
-//            let newLottie = Lottie(context: CoreDataStack.shared.moc)
-//            newLottie.url = $0.value
-//            newLottie.name = $0.type.rawValue
-//            
-//            if CoreDataStack.shared.moc.hasChanges {
-//                try? CoreDataStack.shared.moc.save()
-//            }
-//            
-//            print(CoreDataStack.shared.getAllLotties().count)
+            print("Barcode Type is", $0.type.rawValue)
+            isActive = true
+            self.scannedURL = $0.value
+            
+            //Save lottie to CoreData
+            let newLottie = Lottie(context: CoreDataStack.shared.moc)
+            newLottie.url = $0.value
+            newLottie.name = $0.type.rawValue
+            
+            if CoreDataStack.shared.moc.hasChanges {
+                try? CoreDataStack.shared.moc.save()
+            }
+            
+            print(CoreDataStack.shared.getAllLotties().count)
         }
     }
 }
